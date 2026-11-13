@@ -4,7 +4,7 @@
 
 RE:STACK turns notes into a small, navigable network of ideas. Inspired by HyperCard's personal, linkable stacks, it combines a tactile card deck with full-text search, bidirectional navigation, and an interactive constellation view—without an account or an application backend.
 
-> **Project status:** Working source project with automated tests, a live public demo, and a captured 57-second demo composition. The final MP4 render and public video upload are still pending. See [SUBMISSION.md](SUBMISSION.md) for the honest submission checklist.
+> **Project status:** Working source project with automated tests, a live public demo, and a rendered 57.1-second demo video. The public YouTube upload is still pending. See [SUBMISSION.md](SUBMISSION.md) for the honest submission checklist.
 
 ## Highlights
 
@@ -48,7 +48,7 @@ The browser tests start Vite automatically. They use the installed Chrome channe
 
 ### Demo video source
 
-The `video/` directory contains a 57.1-second HyperFrames composition built from a real Chrome recording. See [DEMO_SCRIPT.md](DEMO_SCRIPT.md) for the timeline and reproduction steps.
+The `video/` directory contains a 57.1-second HyperFrames composition built from a real Chrome recording, plus its rendered MP4: **[video/renders/restack-demo.mp4](video/renders/restack-demo.mp4)** (1920 × 1080, 30 fps, H.264, 6.7 MB, deliberately silent with English captions). A public mirror is available at **[https://restack-demo.nyc.boxd.sh/restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4)**. See [DEMO_SCRIPT.md](DEMO_SCRIPT.md) for the timeline and reproduction steps.
 
 ```bash
 cd video
@@ -56,7 +56,7 @@ npm run check
 npx hyperframes preview --background
 ```
 
-The final MP4 has not yet been rendered or uploaded. Review the actual Studio preview before rendering.
+The final MP4 has been rendered and visually checked from representative frames against the full Studio preview. Uploading it to YouTube and adding the public YouTube URL remain pending.
 
 ## A two-minute tour
 

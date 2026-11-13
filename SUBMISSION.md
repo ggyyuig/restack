@@ -13,7 +13,7 @@
 | Team / authors | **[TODO: project owner must supply real names and roles]** |
 | Canonical repository | **[TODO: add the real public repository URL]** |
 | Public demo | **[https://restack-demo.nyc.boxd.sh/](https://restack-demo.nyc.boxd.sh/)** — static production build; HTTP 200 and 5-card deck verified in Chrome on 2026-11-13 |
-| Demo video | **A 57.1-second screen-recorded HyperFrames composition is included in `video/`; final MP4 render and public upload remain pending.** [TODO: review, render, upload, and add the real URL] |
+| Demo video | **57.1-second silent captioned MP4 rendered and verified (1920 × 1080, 30 fps, H.264, 6.7 MB): [restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4).** YouTube upload and public YouTube URL remain pending. |
 | Submission URL / ID | **[TODO: add only after the entry is actually submitted]** |
 
 ## Short pitch
@@ -108,7 +108,7 @@ Verified on **2026-11-13** against the source snapshot in the initial commit. Re
 | Persistence and exchange | Browser test reload plus real JSON download/import | **PASS — version 1 workspace survived the tested round trips** |
 | Public deployment | `https://restack-demo.nyc.boxd.sh/` in real Chrome | **PASS — HTTP 200, title “RE:STACK — Ideas, connected.”, five-card example deck loaded** |
 | Demo composition | `cd video && npm run check` | **PASS — no lint/runtime/layout/motion/contrast errors; representative snapshots reviewed. Intentional silent-film notice remains.** |
-| Final video file | Render and inspect the reviewed composition | **[TODO: final MP4 has not yet been rendered]** |
+| Final video file | Render and inspect the reviewed composition | **PASS — `video/renders/restack-demo.mp4`; 57.100 s, 1920 × 1080, 30 fps, H.264, 6.7 MB; public mirror returns HTTP 200 and plays in Chrome; representative rendered frames reviewed** |
 
 ## Delivery checklist
 
@@ -117,7 +117,7 @@ Verified on **2026-11-13** against the source snapshot in the initial commit. Re
 - [ ] Confirm the primary and any secondary categories in the current official rules.
 - [ ] Resolve the mandatory Kiro requirement only through genuine use; add actual evidence and an accurate write-up if applicable.
 - [x] Deploy a production build, verify the public URL in a fresh browser, and replace the public-demo placeholder. Live at https://restack-demo.nyc.boxd.sh/.
-- [ ] Review the captured 57.1-second composition in Studio using [DEMO_SCRIPT.md](DEMO_SCRIPT.md), then render and inspect the final MP4.
+- [x] Review the captured 57.1-second composition in Studio using [DEMO_SCRIPT.md](DEMO_SCRIPT.md), then render and inspect the final MP4.
 - [ ] Upload the silent captioned video to YouTube, verify public visibility and duration, and replace the video placeholder.
 - [ ] Confirm that the exported/imported demo workspace contains no private information.
 - [ ] Review the final entry for unsupported claims, broken links, and placeholder text that should now be resolved.
