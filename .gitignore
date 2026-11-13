@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+.vite/
+*.local
+*.log
+.DS_Store
+playwright-report/
+test-results/
+*.tsbuildinfo
+.hyperframes/
+video/.hyperframes/
+video/node_modules/
+video/.capture/
+video/.thumbnails/

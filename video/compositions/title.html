@@ -1,0 +1,54 @@
+<template>
+  <div data-composition-id="title" data-width="1920" data-height="1080" data-duration="5" style="position:absolute;inset:0;overflow:hidden;background:#f3f2e9;color:#20211d;">
+    <style>
+      @font-face { font-family: Inter; src: url('assets/fonts/Inter-400.woff2') format('woff2'); font-weight: 400; }
+      @font-face { font-family: Inter; src: url('assets/fonts/Inter-700.woff2') format('woff2'); font-weight: 700; }
+      @font-face { font-family: EBGaramond; src: url('assets/fonts/EBGaramond-400.woff2') format('woff2'); font-weight: 400; }
+      @font-face { font-family: JetBrainsMono; src: url('assets/fonts/JetBrainsMono-400.woff2') format('woff2'); font-weight: 400; }
+      [data-composition-id="title"] { font-family: Inter, sans-serif; background-image: radial-gradient(#c9c9bd .8px, transparent .8px); background-size: 26px 26px; }
+      [data-composition-id="title"] .brand { position:absolute;left:110px;top:78px;display:flex;align-items:center;gap:18px;font-size:29px;font-weight:700;letter-spacing:-1px; }
+      [data-composition-id="title"] .brand small { font-family:JetBrainsMono,monospace;font-size:14px;font-weight:400;letter-spacing:1.5px;padding:8px 11px;border:1px solid #20211d;background:#c8ee78;box-shadow:3px 3px 0 #20211d; }
+      [data-composition-id="title"] .title-copy { position:absolute;left:110px;top:268px;width:1110px; }
+      [data-composition-id="title"] .title-reveal { opacity:0; }
+      [data-composition-id="title"] .old { font-size:126px;font-weight:700;line-height:1;letter-spacing:-6px; }
+      [data-composition-id="title"] .new { font-family:EBGaramond,serif;font-size:142px;font-style:italic;line-height:1.03;letter-spacing:-5px;margin-top:8px; }
+      [data-composition-id="title"] .subtitle { margin-top:40px;font-family:JetBrainsMono,monospace;font-size:28px;letter-spacing:1.2px;line-height:1.4; }
+      [data-composition-id="title"] .rule { position:absolute;left:110px;bottom:93px;width:1120px;height:2px;background:#20211d;transform-origin:left center; }
+      [data-composition-id="title"] .edition { position:absolute;left:110px;bottom:51px;font-family:JetBrainsMono,monospace;font-size:14px;letter-spacing:1.6px; }
+      [data-composition-id="title"] .stack-card { position:absolute;width:340px;height:420px;transform-origin:50% 50%;will-change:transform; }
+      [data-composition-id="title"] .stack-inner { width:100%;height:100%;box-sizing:border-box;border:2px solid #20211d;border-radius:10px;padding:30px;box-shadow:12px 14px 0 rgba(32,33,29,.22); }
+      [data-composition-id="title"] .a { right:165px;top:204px; } [data-composition-id="title"] .a .stack-inner { background:#b7a1ed;transform:rotate(-10deg); }
+      [data-composition-id="title"] .b { right:110px;top:242px; } [data-composition-id="title"] .b .stack-inner { background:#c8ee78;transform:rotate(7deg); }
+      [data-composition-id="title"] .c { right:150px;top:263px; } [data-composition-id="title"] .c .stack-inner { background:#fbfaf5;transform:rotate(-1deg); }
+      [data-composition-id="title"] .card-no { font-family:JetBrainsMono,monospace;font-size:14px;letter-spacing:1px; }
+      [data-composition-id="title"] .card-glyph { margin-top:50px;font-family:EBGaramond,serif;font-size:72px;font-style:italic;line-height:1; }
+      [data-composition-id="title"] .card-title { margin-top:20px;font-size:28px;font-weight:700;line-height:1.15;letter-spacing:-1px; }
+      [data-composition-id="title"] .card-foot { position:absolute;left:30px;right:30px;bottom:28px;border-top:1px solid #20211d;padding-top:14px;font-family:JetBrainsMono,monospace;font-size:12px;letter-spacing:1px; }
+      [data-composition-id="title"] .back-card-ring { width:190px;height:190px;border:2px solid #20211d;border-radius:50%;margin:78px auto 0;box-shadow:0 0 0 18px transparent,0 0 0 20px #20211d; }
+    </style>
+    <div class="brand">RE:STACK <small data-layout-ignore>HYPERCARD, REIMAGINED</small></div>
+    <div class="title-copy">
+      <div class="old title-reveal" id="title-old">Old cards.</div>
+      <div class="new title-reveal" id="title-new">New connections.</div>
+      <div class="subtitle title-reveal" id="title-sub">A LOCAL-FIRST WORKSPACE FOR THOUGHTS<br/>THAT REFUSE TO LIVE ALONE.</div>
+    </div>
+    <div class="stack-card a" id="title-card-a" data-layout-ignore><div class="stack-inner"><div class="back-card-ring"></div></div></div>
+    <div class="stack-card b" id="title-card-b" data-layout-ignore><div class="stack-inner"><div class="back-card-ring"></div></div></div>
+    <div class="stack-card c" id="title-card-c"><div class="stack-inner"><div class="card-no" data-layout-ignore>CARD 001</div><div class="card-glyph">A thought.</div><div class="card-title">Small enough to hold.<br/>Connected enough to grow.</div><div class="card-foot" data-layout-ignore>RE:STACK / RESURRECTION</div></div></div>
+    <div class="rule" id="title-rule"></div><div class="edition" data-layout-ignore>KIROWEEN 2026 · WORKING SOFTWARE DEMO</div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const titleTl = gsap.timeline({ paused: true });
+      titleTl.set('#title-old', { opacity: 1, y: 80 }, 0.10).to('#title-old', { y: 0, duration: 0.20, ease: 'power4.out' }, 0.10);
+      titleTl.set('#title-new', { opacity: 1, y: 70 }, 0.26).to('#title-new', { y: 0, duration: 0.18, ease: 'power4.out' }, 0.26);
+      titleTl.set('#title-sub', { opacity: 1, y: 40 }, 0.41).to('#title-sub', { y: 0, duration: 0.14, ease: 'power4.out' }, 0.41);
+      ['#title-card-a','#title-card-b','#title-card-c'].forEach((target, i) => {
+        titleTl.fromTo(target, { scale: 0, opacity: 0, y: 24 }, { scale: 1, opacity: 1, y: 0, duration: 0.58, ease: 'power3.out' }, 0.22 + i * 0.07);
+      });
+      titleTl.fromTo('#title-rule', { scaleX: 0 }, { scaleX: 1, duration: 0.65, ease: 'power3.out' }, 0.55);
+      titleTl.to('#title-card-c', { y: -10, duration: 0.65, ease: 'sine.inOut' }, 3.0);
+      titleTl.to('#title-card-c', { y: 0, duration: 0.65, ease: 'sine.inOut' }, 3.65);
+      window.__timelines['title'] = titleTl;
+    </script>
+  </div>
+</template>

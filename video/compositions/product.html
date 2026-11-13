@@ -1,0 +1,34 @@
+<template>
+  <div data-composition-id="product" data-width="1920" data-height="1080" data-duration="45.1" style="position:absolute;inset:0;overflow:hidden;background:#20211d;">
+    <style>
+      @font-face { font-family: Inter; src: url('assets/fonts/Inter-400.woff2') format('woff2'); font-weight: 400; }
+      @font-face { font-family: Inter; src: url('assets/fonts/Inter-700.woff2') format('woff2'); font-weight: 700; }
+      @font-face { font-family: JetBrainsMono; src: url('assets/fonts/JetBrainsMono-400.woff2') format('woff2'); font-weight: 400; }
+      [data-composition-id="product"] { font-family:Inter,sans-serif;background-image:radial-gradient(#494a42 .8px,transparent .8px);background-size:24px 24px; }
+      [data-composition-id="product"] .screen { position:absolute;left:96px;top:54px;width:1728px;height:972px;object-fit:cover;border:2px solid #f3f2e9;border-radius:8px;box-shadow:10px 12px 0 #11120f; }
+      [data-composition-id="product"] .caption { position:absolute;left:132px;bottom:100px;width:760px;pointer-events:none; }
+      [data-composition-id="product"] .caption.right { left:auto;right:132px;width:700px; }
+      [data-composition-id="product"] .caption-inner { box-sizing:border-box;background:#fbfaf5;color:#20211d;border:2px solid #20211d;border-radius:7px;box-shadow:8px 9px 0 #c8ee78;padding:24px 28px 25px;transform-origin:0% 100%;will-change:transform; }
+      [data-composition-id="product"] .chapter { font-family:JetBrainsMono,monospace;font-size:20px;letter-spacing:1.4px;color:#686a5e;margin-bottom:10px; }
+      [data-composition-id="product"] .caption h2 { font-size:40px;line-height:1.1;letter-spacing:-1.3px;margin:0 0 10px; }
+      [data-composition-id="product"] .caption p { font-size:28px;line-height:1.35;margin:0;color:#505247; }
+    </style>
+    <video id="product-screen" class="clip screen" src="assets/restack-screen.webm" data-start="0" data-duration="45.1" data-media-start="0" data-track-index="0" muted playsinline></video>
+
+    <div id="caption-clip-1" class="clip caption" data-start="0.2" data-duration="5.1" data-track-index="1"><div class="caption-inner" id="caption-1"><div class="chapter" data-layout-ignore>01 / THE DECK, REVIVED</div><h2>A place for ideas to begin.</h2><p>Card-sized thinking, rebuilt for a modern browser.</p></div></div>
+    <div id="caption-clip-2" class="clip caption" data-start="5.4" data-duration="8.6" data-track-index="1"><div class="caption-inner" id="caption-2"><div class="chapter" data-layout-ignore>02 / MAKE A CARD</div><h2>Write. Tag. Keep your flow.</h2><p>Every edit autosaves locally — no account, no detour.</p></div></div>
+    <div id="caption-clip-3" class="clip caption" data-start="14.4" data-duration="8.0" data-track-index="1"><div class="caption-inner" id="caption-3"><div class="chapter" data-layout-ignore>03 / FOLLOW A THOUGHT</div><h2>Links become trails.</h2><p>Connect cards directly. Backlinks appear automatically.</p></div></div>
+    <div id="caption-clip-4" class="clip caption" data-start="22.6" data-duration="5.2" data-track-index="1"><div class="caption-inner" id="caption-4"><div class="chapter" data-layout-ignore>04 / FIND IT AGAIN</div><h2>Your whole stack, one key away.</h2><p>Ctrl / Cmd + K searches titles, notes, and tags.</p></div></div>
+    <div id="caption-clip-5" class="clip caption right" data-start="27.8" data-duration="11.0" data-track-index="1"><div class="caption-inner" id="caption-5"><div class="chapter" data-layout-ignore>05 / SEE THE CONSTELLATION</div><h2>Step back. Find a connection.</h2><p>Focus a node, explore its neighbors, and reopen the card.</p></div></div>
+    <div id="caption-clip-6" class="clip caption" data-start="39.0" data-duration="6.0" data-track-index="1"><div class="caption-inner" id="caption-6"><div class="chapter" data-layout-ignore>06 / YOUR STACK STAYS YOURS</div><h2>Portable by design.</h2><p>Export the complete workspace as open JSON.</p></div></div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const productTl = gsap.timeline({ paused: true });
+      const captionStarts = [0.2, 5.4, 14.4, 22.6, 27.8, 39.0];
+      captionStarts.forEach((start, i) => {
+        productTl.fromTo('#caption-' + (i + 1), { scale: 0.96, opacity: 0, y: 18 }, { scale: 1, opacity: 1, y: 0, duration: 0.45, ease: 'power3.out', immediateRender: false }, start);
+      });
+      window.__timelines['product'] = productTl;
+    </script>
+  </div>
+</template>

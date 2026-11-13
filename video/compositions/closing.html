@@ -1,0 +1,39 @@
+<template>
+  <div data-composition-id="closing" data-width="1920" data-height="1080" data-duration="7" style="position:absolute;inset:0;overflow:hidden;background:#20211d;color:#f3f2e9;background-image:radial-gradient(#494a42 .8px,transparent .8px);background-size:26px 26px;">
+    <style>
+      @font-face { font-family: Inter; src: url('assets/fonts/Inter-400.woff2') format('woff2'); font-weight: 400; }
+      @font-face { font-family: Inter; src: url('assets/fonts/Inter-700.woff2') format('woff2'); font-weight: 700; }
+      @font-face { font-family: EBGaramond; src: url('assets/fonts/EBGaramond-400.woff2') format('woff2'); font-weight: 400; }
+      @font-face { font-family: JetBrainsMono; src: url('assets/fonts/JetBrainsMono-400.woff2') format('woff2'); font-weight: 400; }
+      [data-composition-id="closing"] { font-family:Inter,sans-serif;background-image:radial-gradient(#494a42 .8px,transparent .8px);background-size:26px 26px; }
+      [data-composition-id="closing"] .close-brand { position:absolute;left:110px;top:75px;font-size:30px;font-weight:700;letter-spacing:-1px; }
+      [data-composition-id="closing"] .close-brand span { color:#c8ee78; }
+      [data-composition-id="closing"] .close-heading { position:absolute;left:110px;top:205px;width:1550px;font-size:116px;font-weight:700;line-height:1.02;letter-spacing:-5px; }
+      [data-composition-id="closing"] .close-heading em { font-family:EBGaramond,serif;font-weight:400;color:#c8ee78; }
+      [data-composition-id="closing"] .features { position:absolute;left:110px;right:110px;bottom:168px;display:grid;grid-template-columns:repeat(3,1fr);gap:22px; }
+      [data-composition-id="closing"] .feature { border:1px solid #f3f2e9;border-radius:6px;padding:24px 25px;background:#2b2c27;box-shadow:5px 6px 0 #11120f;transform-origin:50% 50%; }
+      [data-composition-id="closing"] .feature b { display:block;font-size:30px;margin-bottom:8px; }
+      [data-composition-id="closing"] .feature span { font-size:28px;line-height:1.35;color:#c8c9bd; }
+      [data-composition-id="closing"] .feature:nth-child(2) { background:#b7a1ed;color:#20211d;border-color:#20211d; }
+      [data-composition-id="closing"] .feature:nth-child(2) span { color:#35362f; }
+      [data-composition-id="closing"] .foot { position:absolute;left:110px;bottom:69px;font-family:JetBrainsMono,monospace;font-size:15px;letter-spacing:1.5px;color:#c8c9bd; }
+    </style>
+    <div class="close-brand">RE:STACK <span>●</span> RESURRECTION</div>
+    <div class="close-heading" id="close-heading">Keep the stack.<br/><em>Lose the silo.</em></div>
+    <div class="features">
+      <div class="feature" id="close-feature-1"><b>Local-first</b><span>Your ideas stay in your browser.</span></div>
+      <div class="feature" id="close-feature-2"><b>Connected</b><span>Links and backlinks make a living trail.</span></div>
+      <div class="feature" id="close-feature-3"><b>Portable</b><span>Open JSON keeps your work yours.</span></div>
+    </div>
+    <div class="foot" data-layout-ignore>HYPERCARD’S SPIRIT · A MODERN, OFFLINE-CAPABLE WORKSPACE</div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const closingTl = gsap.timeline({ paused: true });
+      closingTl.fromTo('#close-heading', { scale: 0.97, opacity: 0, y: 28 }, { scale: 1, opacity: 1, y: 0, duration: 0.65, ease: 'power3.out' }, 0.10);
+      ['#close-feature-1','#close-feature-2','#close-feature-3'].forEach((target, i) => {
+        closingTl.fromTo(target, { scale: 0, opacity: 0, y: 18 }, { scale: 1, opacity: 1, y: 0, duration: 0.55, ease: 'power3.out' }, 0.42 + i * 0.07);
+      });
+      window.__timelines['closing'] = closingTl;
+    </script>
+  </div>
+</template>

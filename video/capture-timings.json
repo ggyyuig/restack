@@ -1,0 +1,50 @@
+[
+  {
+    "name": "deck-ready",
+    "at": 0.765
+  },
+  {
+    "name": "new-card",
+    "at": 5.315
+  },
+  {
+    "name": "card-authored",
+    "at": 14.147
+  },
+  {
+    "name": "link-created",
+    "at": 16.375
+  },
+  {
+    "name": "backlink-visible",
+    "at": 18.935
+  },
+  {
+    "name": "persisted-after-reload",
+    "at": 23.756
+  },
+  {
+    "name": "search-results",
+    "at": 27.05
+  },
+  {
+    "name": "search-complete",
+    "at": 31.123
+  },
+  {
+    "name": "constellation-opened",
+    "at": 32.071
+  },
+  {
+    "name": "graph-card-opened",
+    "at": 38.97
+  },
+  {
+    "name": "workspace-exported",
+    "at": 42.385
+  },
+  {
+    "name": "capture-complete",
+    "at": 45.392
+  }
+]
