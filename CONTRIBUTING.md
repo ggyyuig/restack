@@ -4,7 +4,7 @@ Thank you for helping make personal, connected software more approachable. Contr
 
 ## Before you start
 
-- Search the project's actual issue tracker before opening duplicate work. **[TODO: add the canonical repository/issue URL when available.]**
+- Search the project's [issue tracker](https://github.com/ggyyuig/restack/issues) before opening duplicate work.
 - For a feature, storage-format change, new dependency, or visual redesign, describe the problem and proposed trade-offs before implementing it.
 - Do not include private workspace exports in issues, tests, screenshots, or commits. Create small sanitized fixtures instead.
 - Be respectful and constructive. Assume that people use their stacks for material that matters to them.

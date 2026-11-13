@@ -139,9 +139,9 @@ src/
 
 | Resource | Current status |
 | --- | --- |
-| Canonical repository | **[TODO: add the real public repository URL after it exists]** |
+| Canonical repository | **[https://github.com/ggyyuig/restack](https://github.com/ggyyuig/restack)** — public, MIT licensed |
 | Public demo | **[https://restack-demo.nyc.boxd.sh/](https://restack-demo.nyc.boxd.sh/)** — deployed static build, verified in Chrome on 2026-11-13 |
-| Demo video | **57.1-second captured composition included; final MP4 render/upload pending.** [TODO: add the public YouTube URL after upload; see DEMO_SCRIPT.md] |
+| Demo video | **Rendered, verified, and publicly mirrored:** [restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4) (57.1 s, 1920 × 1080, 30 fps, 6.7 MB). **YouTube upload pending.** |
 | Competition entry | **Draft; submission has not been confirmed.** |
 
 The intended primary competition category is **Resurrection**. The visual direction may also fit **Costume Contest**, but no finalist status, category placement, or award is claimed.

@@ -10,8 +10,8 @@
 | Tagline | A local-first HyperCard revival for connected thinking. |
 | Intended primary category | **Resurrection** |
 | Additional visual fit | **Costume Contest** — a possible category choice, not an award or placement claim |
-| Team / authors | **[TODO: project owner must supply real names and roles]** |
-| Canonical repository | **[TODO: add the real public repository URL]** |
+| Team / authors | **Huishuo Li — solo entrant** |
+| Canonical repository | **[https://github.com/ggyyuig/restack](https://github.com/ggyyuig/restack)** — public, MIT licensed, root `LICENSE` |
 | Public demo | **[https://restack-demo.nyc.boxd.sh/](https://restack-demo.nyc.boxd.sh/)** — static production build; HTTP 200 and 5-card deck verified in Chrome on 2026-11-13 |
 | Demo video | **57.1-second silent captioned MP4 rendered and verified (1920 × 1080, 30 fps, H.264, 6.7 MB): [restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4).** YouTube upload and public YouTube URL remain pending. |
 | Submission URL / ID | **[TODO: add only after the entry is actually submitted]** |
@@ -107,12 +107,13 @@ Verified on **2026-11-13** against the source snapshot in the initial commit. Re
 | Responsive check | Playwright desktop plus 390 × 844 mobile viewport | **PASS — screenshots reviewed; no blocking layout issue found** |
 | Persistence and exchange | Browser test reload plus real JSON download/import | **PASS — version 1 workspace survived the tested round trips** |
 | Public deployment | `https://restack-demo.nyc.boxd.sh/` in real Chrome | **PASS — HTTP 200, title “RE:STACK — Ideas, connected.”, five-card example deck loaded** |
+| Public repository | `https://github.com/ggyyuig/restack` | **PASS — public HTTP 200; source, MIT `LICENSE`, and rendered video committed on `main`** |
 | Demo composition | `cd video && npm run check` | **PASS — no lint/runtime/layout/motion/contrast errors; representative snapshots reviewed. Intentional silent-film notice remains.** |
 | Final video file | Render and inspect the reviewed composition | **PASS — `video/renders/restack-demo.mp4`; 57.100 s, 1920 × 1080, 30 fps, H.264, 6.7 MB; public mirror returns HTTP 200 and plays in Chrome; representative rendered frames reviewed** |
 
 ## Delivery checklist
 
-- [ ] Add the real team/author names and canonical public repository URL.
+- [x] Add the real team/author names and canonical public repository URL. Live at https://github.com/ggyyuig/restack.
 - [x] Run the complete verification record against the source snapshot and record truthful results.
 - [ ] Confirm the primary and any secondary categories in the current official rules.
 - [ ] Resolve the mandatory Kiro requirement only through genuine use; add actual evidence and an accurate write-up if applicable.
