@@ -2,16 +2,16 @@
 
 **Composition runtime:** 57.1 seconds  
 **Hard limit:** under 3 minutes  
-**Format:** 1920 × 1080, 16:9, silent with English on-screen captions  
-**Status:** Real application footage recorded; local HyperFrames composition included; final MP4 rendered, verified, and published publicly on YouTube.  
+**Format:** 1920 × 1080, 16:9, English narration with English on-screen captions  
+**Status:** Real application footage recorded; local HyperFrames composition included; final MP4 with narration rendered, verified, and published publicly on YouTube.  
 **Final video file:** [video/renders/restack-demo.mp4](video/renders/restack-demo.mp4) — also mirrored at [https://restack-demo.nyc.boxd.sh/restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4)  
-**YouTube URL:** **[https://youtu.be/Ptbfcr416iY](https://youtu.be/Ptbfcr416iY)**
+**YouTube URL:** **[https://youtu.be/-nrugPKofmU](https://youtu.be/-nrugPKofmU)**
 
 ## What the video demonstrates
 
 The footage is a real Chrome session of the current application, not a mockup. A fresh browser context starts with the sanitized example workspace. The recording creates and edits a card, adds a connection, reveals the derived backlink, reloads to demonstrate persistence, uses keyboard search, explores the constellation, and exports JSON.
 
-No narration or music is used. Large captions explain each action while leaving the interface visible. The video makes no Kiro, deployment, submission, or award claims.
+A warm English voiceover explains each action; it is delivered by Microsoft Edge neural TTS voice `en-US-AndrewMultilingualNeural` and timed to the edit. There is no music or sound effects. Large captions repeat the key point while leaving the interface visible. The video makes no Kiro, deployment, submission, or award claims.
 
 ## Timeline
 
@@ -25,6 +25,28 @@ No narration or music is used. Large captions explain each action while leaving 
 | 0:32.8–0:43.8 | Focus the constellation and reopen a card | **Step back. Find a connection.** |
 | 0:44.0–0:50.0 | Export the workspace | **Portable by design.** |
 | 0:50.1–0:57.1 | Closing summary | **One thought per card. A few good connections.** |
+
+## Narration
+
+The audio track is a single 57.1-second WAV file, `video/assets/audio/narration.wav`, placed at the root of the composition. It was generated locally with Edge TTS (`en-US-AndrewMultilingualNeural`, rate +6%, pitch −2 Hz) and normalized to −16 LUFS.
+
+| Start | Narration |
+| ---: | --- |
+| 0.35 | RE:STACK. Old cards. New connections. |
+| 5.20 | A place for ideas to begin. Card-sized thinking, modern browser. |
+| 10.50 | Write a thought. Add tags. Every edit saves locally. No account, no detour. |
+| 19.50 | Connect one card to another. Backlinks appear automatically, so every trail works in both directions. |
+| 27.80 | One shortcut searches titles, notes, and tags. |
+| 33.00 | Step back into the constellation. Focus a node, follow its neighbors, and reopen the thought. |
+| 44.20 | Your stack stays yours. Export the complete workspace as open JSON. |
+| 50.45 | RE:STACK. Keep the stack. Lose the silo. |
+
+Regenerate the track after installing `edge-tts` and confirming `ffmpeg` is on `PATH`:
+
+```bash
+cd video
+python scripts/build-narration.py
+```
 
 ## Reproduce the capture
 
@@ -62,6 +84,6 @@ After explicit review approval, render with `npm run render`. Do not treat a suc
 - [x] Render the final MP4 and verify its duration, resolution, playback, and visual integrity.
 - [x] Confirm every visible interaction matches the current application.
 - [x] Confirm the video contains no private cards, downloads, browser data, or unsupported claims.
-- [x] Upload the actual video to YouTube as a public video: https://youtu.be/Ptbfcr416iY.
+- [x] Upload the actual video to YouTube as a public video: https://youtu.be/-nrugPKofmU.
 - [x] Test the URL in Chrome; public playback, title, and the 57.1-second runtime are confirmed.
 - [x] Replace the YouTube URL placeholder above and in [README.md](README.md) and [SUBMISSION.md](SUBMISSION.md).

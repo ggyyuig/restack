@@ -8,4 +8,4 @@ Flow: automation; interactive storyboard review disabled by BRIEF.md. This docum
 | Live workspace | 5.0–50.1s | `compositions/product.html` + `assets/restack-screen.webm` | animated | Real Chrome capture, full 45.08s source; six timed caption cards aligned to `capture-timings.json`. |
 | Closing | 50.1–57.1s | `compositions/closing.html` | animated | Product idea and three truthful feature chips. |
 
-Root: `index.html`, id `root`, fixed duration 57.1s. No narration or BGM. Verify at scene midpoints and at every product caption transition; then open persistent Studio preview for final-look approval before rendering.
+Root: `index.html`, id `root`, fixed duration 57.1s. A single root-level audio clip carries the English narration; no BGM or sound effects. Verify at scene midpoints, at every product caption transition, and against `assets/audio/narration-timing.json`; then open persistent Studio preview for final-look approval before rendering.

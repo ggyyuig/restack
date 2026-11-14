@@ -13,7 +13,7 @@
 | Team / authors | **Huishuo Li — solo entrant** |
 | Canonical repository | **[https://github.com/ggyyuig/restack](https://github.com/ggyyuig/restack)** — public, MIT licensed, root `LICENSE` |
 | Public demo | **[https://restack-demo.nyc.boxd.sh/](https://restack-demo.nyc.boxd.sh/)** — static production build; HTTP 200 and 5-card deck verified in Chrome on 2026-11-13 |
-| Demo video | **57.1-second silent captioned MP4 rendered and verified (1920 × 1080, 30 fps, H.264, 6.7 MB): [YouTube — RE:STACK demo](https://youtu.be/Ptbfcr416iY).** Public mirror: [restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4). |
+| Demo video | **57.1-second narrated captioned MP4 rendered and verified (1920 × 1080, 30 fps, H.264, 7.9 MB): [YouTube — RE:STACK demo](https://youtu.be/-nrugPKofmU).** Public mirror: [restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4). |
 | Submission URL / ID | **[TODO: add only after the entry is actually submitted]** |
 
 ## Short pitch
@@ -108,9 +108,9 @@ Verified on **2026-11-13** against the source snapshot in the initial commit. Re
 | Persistence and exchange | Browser test reload plus real JSON download/import | **PASS — version 1 workspace survived the tested round trips** |
 | Public deployment | `https://restack-demo.nyc.boxd.sh/` in real Chrome | **PASS — HTTP 200, title “RE:STACK — Ideas, connected.”, five-card example deck loaded** |
 | Public repository | `https://github.com/ggyyuig/restack` | **PASS — public HTTP 200; source, MIT `LICENSE`, and rendered video committed on `main`** |
-| Demo composition | `cd video && npm run check` | **PASS — no lint/runtime/layout/motion/contrast errors; representative snapshots reviewed. Intentional silent-film notice remains.** |
-| Final video file | Render and inspect the reviewed composition | **PASS — `video/renders/restack-demo.mp4`; 57.100 s, 1920 × 1080, 30 fps, H.264, 6.7 MB; public mirror returns HTTP 200 and plays in Chrome; representative rendered frames reviewed** |
-| Public YouTube video | `https://youtu.be/Ptbfcr416iY` | **PASS — public watch page loads and plays; title and 57-second runtime confirmed in Chrome on 2026-11-14** |
+| Demo composition | `cd video && npm run check` | **PASS — 0 lint/runtime/layout/motion/audio errors, 0 warnings; 22/22 WCAG AA contrast checks; representative snapshots reviewed.** |
+| Final video file | Render and inspect the reviewed composition | **PASS — `video/renders/restack-demo.mp4`; 57.100 s, 1920 × 1080, 30 fps, H.264, 7.9 MB with AAC stereo narration; public mirror returns HTTP 200 and plays in Chrome; representative rendered frames reviewed** |
+| Public YouTube video | `https://youtu.be/-nrugPKofmU` | **PASS — public watch page loads and plays; title and 57-second runtime confirmed in Chrome on 2026-11-14** |
 
 ## Delivery checklist
 
@@ -120,7 +120,7 @@ Verified on **2026-11-13** against the source snapshot in the initial commit. Re
 - [ ] Resolve the mandatory Kiro requirement only through genuine use; add actual evidence and an accurate write-up if applicable.
 - [x] Deploy a production build, verify the public URL in a fresh browser, and replace the public-demo placeholder. Live at https://restack-demo.nyc.boxd.sh/.
 - [x] Review the captured 57.1-second composition in Studio using [DEMO_SCRIPT.md](DEMO_SCRIPT.md), then render and inspect the final MP4.
-- [x] Upload the silent captioned video to YouTube, verify public visibility and duration, and replace the video placeholder. Live at https://youtu.be/Ptbfcr416iY.
+- [x] Upload the narrated captioned video to YouTube, verify public visibility and duration, and replace the video placeholder. Live at https://youtu.be/-nrugPKofmU.
 - [x] Confirm that the exported/imported demo workspace contains no private information. The recorded demo uses a fresh isolated browser context and only generic example text; no personal workspace data is included.
 - [ ] Review the final entry for unsupported claims, broken links, and placeholder text that should now be resolved.
 - [ ] Actually submit the entry before the deadline; add the confirmation URL or ID only afterward.

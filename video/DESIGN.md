@@ -16,4 +16,4 @@
 
 ## Audio and claims
 
-Deliberately silent. No voiceover, music, or sound effects. No deployment, Kiro, award, or submission claims appear in the video. The only historical/product framing is HyperCard-inspired resurrection and the actual working feature set.
+A single English narration track runs across the full 57.1 seconds, timed to the on-screen captions; it uses Edge TTS voice `en-US-AndrewMultilingualNeural`, rate +6%, pitch -2Hz, normalized to -16 LUFS. There is no music or sound effects. The narration is local audio, not a network request. No deployment, Kiro, award, or submission claims appear in the video. The only historical/product framing is HyperCard-inspired resurrection and the actual working feature set.

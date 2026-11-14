@@ -1,0 +1,82 @@
+[
+  {
+    "index": 1,
+    "start": 0.35,
+    "window_end": 4.85,
+    "duration": 3.36,
+    "end": 3.71,
+    "fits": true,
+    "text": "RE:STACK. Old cards. New connections.",
+    "file": "assets/audio/segments/01.mp3"
+  },
+  {
+    "index": 2,
+    "start": 5.2,
+    "window_end": 10.2,
+    "duration": 4.32,
+    "end": 9.52,
+    "fits": true,
+    "text": "A place for ideas to begin. Card-sized thinking, modern browser.",
+    "file": "assets/audio/segments/02.mp3"
+  },
+  {
+    "index": 3,
+    "start": 10.5,
+    "window_end": 18.8,
+    "duration": 5.952,
+    "end": 16.452,
+    "fits": true,
+    "text": "Write a thought. Add tags. Every edit saves locally. No account, no detour.",
+    "file": "assets/audio/segments/03.mp3"
+  },
+  {
+    "index": 4,
+    "start": 19.5,
+    "window_end": 27.2,
+    "duration": 6.816,
+    "end": 26.316,
+    "fits": true,
+    "text": "Connect one card to another. Backlinks appear automatically, so every trail works in both directions.",
+    "file": "assets/audio/segments/04.mp3"
+  },
+  {
+    "index": 5,
+    "start": 27.8,
+    "window_end": 32.6,
+    "duration": 3.888,
+    "end": 31.688,
+    "fits": true,
+    "text": "One shortcut searches titles, notes, and tags.",
+    "file": "assets/audio/segments/05.mp3"
+  },
+  {
+    "index": 6,
+    "start": 33.0,
+    "window_end": 43.6,
+    "duration": 6.168,
+    "end": 39.168,
+    "fits": true,
+    "text": "Step back into the constellation. Focus a node, follow its neighbors, and reopen the thought.",
+    "file": "assets/audio/segments/06.mp3"
+  },
+  {
+    "index": 7,
+    "start": 44.2,
+    "window_end": 49.8,
+    "duration": 4.896,
+    "end": 49.096,
+    "fits": true,
+    "text": "Your stack stays yours. Export the complete workspace as open JSON.",
+    "file": "assets/audio/segments/07.mp3"
+  },
+  {
+    "index": 8,
+    "start": 50.45,
+    "window_end": 56.6,
+    "duration": 3.456,
+    "end": 53.906,
+    "fits": true,
+    "text": "RE:STACK. Keep the stack. Lose the silo.",
+    "file": "assets/audio/segments/08.mp3"
+  }
+]
