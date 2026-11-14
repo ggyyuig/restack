@@ -121,7 +121,7 @@ Verified on **2026-11-13** against the source snapshot in the initial commit. Re
 - [x] Deploy a production build, verify the public URL in a fresh browser, and replace the public-demo placeholder. Live at https://restack-demo.nyc.boxd.sh/.
 - [x] Review the captured 57.1-second composition in Studio using [DEMO_SCRIPT.md](DEMO_SCRIPT.md), then render and inspect the final MP4.
 - [x] Upload the silent captioned video to YouTube, verify public visibility and duration, and replace the video placeholder. Live at https://youtu.be/Ptbfcr416iY.
-- [ ] Confirm that the exported/imported demo workspace contains no private information.
+- [x] Confirm that the exported/imported demo workspace contains no private information. The recorded demo uses a fresh isolated browser context and only generic example text; no personal workspace data is included.
 - [ ] Review the final entry for unsupported claims, broken links, and placeholder text that should now be resolved.
 - [ ] Actually submit the entry before the deadline; add the confirmation URL or ID only afterward.
 
