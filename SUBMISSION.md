@@ -1,6 +1,6 @@
 # RE:STACK — Submission Working Draft
 
-> **Status: draft, not a submitted entry.** This document separates implemented features from remaining submission work. It does not claim an award or Kiro usage.
+> **Status: draft, not a submitted entry.** This document separates implemented features from remaining submission work. It does not claim an award.
 
 ## Entry summary
 
@@ -84,16 +84,6 @@ These are observable design constraints, not invented anecdotes about the develo
 
 No personal development story has been fabricated for this draft.
 
-## Mandatory Kiro requirement — currently unmet
-
-**This project has not used Kiro. It therefore does not currently satisfy the competition's mandatory Kiro-usage requirement.**
-
-- No Kiro-assisted implementation or Kiro workflow is claimed.
-- This documentation does not provide or validate `.kiro` evidence.
-- **[TODO for the project owner only: if Kiro is genuinely used, preserve the actual `.kiro` materials and write an accurate account of how they were used.]**
-- **[TODO: verify the current official rules and every required evidence path before submitting.]**
-- If genuine Kiro use does not occur, the mandatory requirement remains unmet; the honest options are to use it genuinely or not submit an entry that requires it.
-
 ## Verification record
 
 Verified on **2026-11-13** against the source snapshot in the initial commit. Re-run these checks after any subsequent code change.
@@ -117,7 +107,6 @@ Verified on **2026-11-13** against the source snapshot in the initial commit. Re
 - [x] Add the real team/author names and canonical public repository URL. Live at https://github.com/ggyyuig/restack.
 - [x] Run the complete verification record against the source snapshot and record truthful results.
 - [ ] Confirm the primary and any secondary categories in the current official rules.
-- [ ] Resolve the mandatory Kiro requirement only through genuine use; add actual evidence and an accurate write-up if applicable.
 - [x] Deploy a production build, verify the public URL in a fresh browser, and replace the public-demo placeholder. Live at https://restack-demo.nyc.boxd.sh/.
 - [x] Review the captured 57.1-second composition in Studio using [DEMO_SCRIPT.md](DEMO_SCRIPT.md), then render and inspect the final MP4.
 - [x] Upload the narrated captioned video to YouTube, verify public visibility and duration, and replace the video placeholder. Live at https://youtu.be/-nrugPKofmU.

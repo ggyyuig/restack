@@ -30,6 +30,6 @@ Create a concise, polished demonstration of the working RE:STACK application for
 - Show the functioning application, not mocked feature screens.
 - No private data, third-party music, trademarks beyond the historical HyperCard reference, or unsupported claims.
 - Use concise English narration throughout; no music. On-screen captions reinforce each beat.
-- Do not claim Kiro usage, public deployment, submission, or awards.
+- Do not claim public deployment, submission, or awards.
 - HyperFrames usage was queried and returned status unknown with reason unsupported_harness; no allowance is assumed.
 - The user asked for autonomous completion, so no storyboard review pause is needed. Final Studio preview approval is still required before rendering.

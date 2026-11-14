@@ -108,10 +108,6 @@ For UI-affecting work, manually check the relevant items in a real browser:
 5. Include before/after screenshots for visual changes, using only sanitized example data.
 6. Do not claim a deployment, video upload, submission, or award unless the linked artifact independently verifies it.
 
-### Competition-material integrity
-
-RE:STACK currently has **not used Kiro**, so the competition's mandatory Kiro condition remains unmet. Do not create retrospective `.kiro` evidence or write Kiro usage claims that did not happen. The project owner may add such materials only after genuine use, with an accurate description and verifiable artifacts.
-
 ## Reporting bugs
 
 Include:

@@ -11,7 +11,7 @@
 
 The footage is a real Chrome session of the current application, not a mockup. A fresh browser context starts with the sanitized example workspace. The recording creates and edits a card, adds a connection, reveals the derived backlink, reloads to demonstrate persistence, uses keyboard search, explores the constellation, and exports JSON.
 
-A warm English voiceover explains each action; it is delivered by Microsoft Edge neural TTS voice `en-US-AndrewMultilingualNeural` and timed to the edit. There is no music or sound effects. Large captions repeat the key point while leaving the interface visible. The video makes no Kiro, deployment, submission, or award claims.
+A warm English voiceover explains each action; it is delivered by Microsoft Edge neural TTS voice `en-US-AndrewMultilingualNeural` and timed to the edit. There is no music or sound effects. Large captions repeat the key point while leaving the interface visible. The video makes no deployment, submission, or award claims.
 
 ## Timeline
 
