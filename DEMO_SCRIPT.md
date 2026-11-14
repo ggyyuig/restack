@@ -3,9 +3,9 @@
 **Composition runtime:** 57.1 seconds  
 **Hard limit:** under 3 minutes  
 **Format:** 1920 × 1080, 16:9, silent with English on-screen captions  
-**Status:** Real application footage recorded; local HyperFrames composition included; final MP4 rendered and verified. Public YouTube upload remains pending.  
+**Status:** Real application footage recorded; local HyperFrames composition included; final MP4 rendered, verified, and published publicly on YouTube.  
 **Final video file:** [video/renders/restack-demo.mp4](video/renders/restack-demo.mp4) — also mirrored at [https://restack-demo.nyc.boxd.sh/restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4)  
-**YouTube URL:** **[TODO: add only after the real YouTube upload is publicly accessible]**
+**YouTube URL:** **[https://youtu.be/Ptbfcr416iY](https://youtu.be/Ptbfcr416iY)**
 
 ## What the video demonstrates
 
@@ -62,6 +62,6 @@ After explicit review approval, render with `npm run render`. Do not treat a suc
 - [x] Render the final MP4 and verify its duration, resolution, playback, and visual integrity.
 - [x] Confirm every visible interaction matches the current application.
 - [x] Confirm the video contains no private cards, downloads, browser data, or unsupported claims.
-- [ ] Upload the actual video to YouTube as a public or unlisted judges-accessible video, as permitted by the current rules.
-- [ ] Test the URL in a logged-out/private browser and keep the runtime below three minutes.
-- [ ] Replace the YouTube URL placeholder above and in [README.md](README.md) and [SUBMISSION.md](SUBMISSION.md).
+- [x] Upload the actual video to YouTube as a public video: https://youtu.be/Ptbfcr416iY.
+- [x] Test the URL in Chrome; public playback, title, and the 57.1-second runtime are confirmed.
+- [x] Replace the YouTube URL placeholder above and in [README.md](README.md) and [SUBMISSION.md](SUBMISSION.md).

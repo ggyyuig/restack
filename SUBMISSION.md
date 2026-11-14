@@ -1,6 +1,6 @@
 # RE:STACK — Submission Working Draft
 
-> **Status: draft, not a submitted entry.** This document separates implemented features from unfinished delivery work. It does not claim an uploaded video, an award, or Kiro usage.
+> **Status: draft, not a submitted entry.** This document separates implemented features from remaining submission work. It does not claim an award or Kiro usage.
 
 ## Entry summary
 
@@ -13,7 +13,7 @@
 | Team / authors | **Huishuo Li — solo entrant** |
 | Canonical repository | **[https://github.com/ggyyuig/restack](https://github.com/ggyyuig/restack)** — public, MIT licensed, root `LICENSE` |
 | Public demo | **[https://restack-demo.nyc.boxd.sh/](https://restack-demo.nyc.boxd.sh/)** — static production build; HTTP 200 and 5-card deck verified in Chrome on 2026-11-13 |
-| Demo video | **57.1-second silent captioned MP4 rendered and verified (1920 × 1080, 30 fps, H.264, 6.7 MB): [restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4).** YouTube upload and public YouTube URL remain pending. |
+| Demo video | **57.1-second silent captioned MP4 rendered and verified (1920 × 1080, 30 fps, H.264, 6.7 MB): [YouTube — RE:STACK demo](https://youtu.be/Ptbfcr416iY).** Public mirror: [restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4). |
 | Submission URL / ID | **[TODO: add only after the entry is actually submitted]** |
 
 ## Short pitch
@@ -110,6 +110,7 @@ Verified on **2026-11-13** against the source snapshot in the initial commit. Re
 | Public repository | `https://github.com/ggyyuig/restack` | **PASS — public HTTP 200; source, MIT `LICENSE`, and rendered video committed on `main`** |
 | Demo composition | `cd video && npm run check` | **PASS — no lint/runtime/layout/motion/contrast errors; representative snapshots reviewed. Intentional silent-film notice remains.** |
 | Final video file | Render and inspect the reviewed composition | **PASS — `video/renders/restack-demo.mp4`; 57.100 s, 1920 × 1080, 30 fps, H.264, 6.7 MB; public mirror returns HTTP 200 and plays in Chrome; representative rendered frames reviewed** |
+| Public YouTube video | `https://youtu.be/Ptbfcr416iY` | **PASS — public watch page loads and plays; title and 57-second runtime confirmed in Chrome on 2026-11-14** |
 
 ## Delivery checklist
 
@@ -119,7 +120,7 @@ Verified on **2026-11-13** against the source snapshot in the initial commit. Re
 - [ ] Resolve the mandatory Kiro requirement only through genuine use; add actual evidence and an accurate write-up if applicable.
 - [x] Deploy a production build, verify the public URL in a fresh browser, and replace the public-demo placeholder. Live at https://restack-demo.nyc.boxd.sh/.
 - [x] Review the captured 57.1-second composition in Studio using [DEMO_SCRIPT.md](DEMO_SCRIPT.md), then render and inspect the final MP4.
-- [ ] Upload the silent captioned video to YouTube, verify public visibility and duration, and replace the video placeholder.
+- [x] Upload the silent captioned video to YouTube, verify public visibility and duration, and replace the video placeholder. Live at https://youtu.be/Ptbfcr416iY.
 - [ ] Confirm that the exported/imported demo workspace contains no private information.
 - [ ] Review the final entry for unsupported claims, broken links, and placeholder text that should now be resolved.
 - [ ] Actually submit the entry before the deadline; add the confirmation URL or ID only afterward.

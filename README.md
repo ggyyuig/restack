@@ -4,7 +4,7 @@
 
 RE:STACK turns notes into a small, navigable network of ideas. Inspired by HyperCard's personal, linkable stacks, it combines a tactile card deck with full-text search, bidirectional navigation, and an interactive constellation view—without an account or an application backend.
 
-> **Project status:** Working source project with automated tests, a live public demo, and a rendered 57.1-second demo video. The public YouTube upload is still pending. See [SUBMISSION.md](SUBMISSION.md) for the honest submission checklist.
+> **Project status:** Working source project with automated tests, a live public demo, and a rendered 57.1-second demo video published on YouTube: **[https://youtu.be/Ptbfcr416iY](https://youtu.be/Ptbfcr416iY)**. See [SUBMISSION.md](SUBMISSION.md) for the honest submission checklist.
 
 ## Highlights
 
@@ -56,7 +56,7 @@ npm run check
 npx hyperframes preview --background
 ```
 
-The final MP4 has been rendered and visually checked from representative frames against the full Studio preview. Uploading it to YouTube and adding the public YouTube URL remain pending.
+The final MP4 has been rendered and visually checked from representative frames against the full Studio preview. It is published publicly on YouTube at **[https://youtu.be/Ptbfcr416iY](https://youtu.be/Ptbfcr416iY)**.
 
 ## A two-minute tour
 
@@ -141,7 +141,7 @@ src/
 | --- | --- |
 | Canonical repository | **[https://github.com/ggyyuig/restack](https://github.com/ggyyuig/restack)** — public, MIT licensed |
 | Public demo | **[https://restack-demo.nyc.boxd.sh/](https://restack-demo.nyc.boxd.sh/)** — deployed static build, verified in Chrome on 2026-11-13 |
-| Demo video | **Rendered, verified, and publicly mirrored:** [restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4) (57.1 s, 1920 × 1080, 30 fps, 6.7 MB). **YouTube upload pending.** |
+| Demo video | **Rendered, verified, and public:** [YouTube — RE:STACK demo](https://youtu.be/Ptbfcr416iY) (57.1 s, 1920 × 1080, 30 fps, 6.7 MB). Public mirror: [restack-demo.mp4](https://restack-demo.nyc.boxd.sh/restack-demo.mp4). |
 | Competition entry | **Draft; submission has not been confirmed.** |
 
 The intended primary competition category is **Resurrection**. The visual direction may also fit **Costume Contest**, but no finalist status, category placement, or award is claimed.
