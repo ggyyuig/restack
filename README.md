@@ -152,10 +152,6 @@ src/
 
 The intended primary competition category is **Resurrection**. The visual direction may also fit **Costume Contest**, but no finalist status, category placement, or award is claimed.
 
-### Mandatory Kiro requirement
-
-**RE:STACK has not used Kiro and therefore does not currently satisfy the competition's mandatory Kiro-usage requirement.** No Kiro-assisted development, `.kiro` evidence, or Kiro write-up is claimed. Only the project owner may add such evidence and narrative after genuine Kiro use; those materials must describe what actually happened.
-
 ## Contributing and license
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) for development and data-compatibility guidelines. The video run-through is in [DEMO_SCRIPT.md](DEMO_SCRIPT.md).
@@ -313,10 +309,6 @@ src/
 | 竞赛提交 | **草稿；尚未确认正式提交。** |
 
 项目计划参加的主赛道是 **Resurrection（复活）**。视觉方向也可能适合 **Costume Contest（服装大赛）**，但不宣称任何入围、赛道名次或奖项。
-
-### Kiro 使用要求（重要）
-
-**RE:STACK 目前没有使用 Kiro，因此尚不满足本次竞赛对 Kiro 使用的强制要求。** 项目不宣称任何 Kiro 辅助开发、`.kiro` 证据或 Kiro 写作内容。只有在真正使用 Kiro 之后，项目所有者才能补充相应材料；这些材料必须如实描述实际发生的过程。
 
 ## 贡献与许可
 
